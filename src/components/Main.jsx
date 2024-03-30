@@ -20,7 +20,7 @@ function Main() {
             classText={"linkedin"}
             Icon={LinkedinLogo}
             title={"Linkedin"}
-            href={"https://www.instagram.com/ericodesenvolvedor/"}
+            href={"https://www.linkedin.com/in/eric-de-oliveira-pereira/"}
             linkText={"Acessar linkedin"}
           />
 
