@@ -1,0 +1,25 @@
+.header .container {
+  padding: 4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #cfcfcf;
+  font-size: 2.4rem;
+}
+
+.header-avatar {
+  width: 6rem;
+  height: 6rem;
+  clip-path: circle();
+}
+
+@media screen and (max-width: 420px) {
+  .header-title {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,61 @@
+.card-list {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 4rem 2rem;
+}
+
+.card-item {
+  width: 100%;
+}
+
+.card-icon {
+  height: 15rem;
+  display: grid;
+  place-content: center;
+  font-size: 4rem;
+}
+
+.card-icon.instagram  {
+  background-color: rgb(252, 172, 201);
+  color: rgb(71, 10, 33);
+}
+
+.card-icon.linkedin  {
+  background-color: rgb(169, 178, 255);
+  color: rgb(49, 52, 78);
+}
+
+
+.card-icon.github  {
+  background-color: rgb(50, 50, 50);
+  color: rgb(0, 0, 0);
+}
+
+.card-icon.playlist  {
+  background-color: rgb(175, 255, 203);
+  color: rgb(46, 67, 53);
+}
+
+.card-icon.animes  {
+  background-color: rgb(255, 249, 160);
+  color: rgb(73, 71, 45);
+}
+
+.card-title {
+  margin-top: 2rem;
+  color: #cfcfcf;
+}
+
+.card-link {
+  display: block;
+  margin-top: 1rem;
+  color: #959595;
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+}
